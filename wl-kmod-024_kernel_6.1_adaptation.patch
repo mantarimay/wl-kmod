@@ -1,6 +1,6 @@
 diff -Naur hybrid-v35_64-nodebug-pcoem-6_30_223_271.orig/src/wl/sys/wl_cfg80211_hybrid.c hybrid-v35_64-nodebug-pcoem-6_30_223_271/src/wl/sys/wl_cfg80211_hybrid.c
 --- hybrid-v35_64-nodebug-pcoem-6_30_223_271.orig/src/wl/sys/wl_cfg80211_hybrid.c	2022-04-02 19:58:24.236715000 +0200
-+++ hybrid-v35_64-nodebug-pcoem-6_30_223_271/src/wl/sys/wl_cfg80211_hybrid.c	2022-10-19 01:08:31.537677649 +0200
++++ hybrid-v35_64-nodebug-pcoem-6_30_223_271/src/wl/sys/wl_cfg80211_hybrid.c	2022-10-19 21:13:31.537677649 +0200
 @@ -105,20 +105,25 @@ static s32 wl_cfg80211_get_tx_power(struct wiphy *wiphy, struct wireless_dev *wd
  static s32 wl_cfg80211_get_tx_power(struct wiphy *wiphy, s32 *dbm);
  #endif
