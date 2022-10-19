@@ -349,7 +349,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Wed Oct 19 2022 Muhammad Akbar Yanuar Mantari <mantarimay@proton.me> - 6.30.223.271-46
-- Fix patch for kernel >= 6.1
+- Fix patch for kernel >= 6.1-rc1
 
 * Mon Oct 17 2022 Nicolas Viéville <nicolas.vieville@uphf.fr> - 6.30.223.271-45
 - Fix patch for kernel >= 6.0
